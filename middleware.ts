@@ -89,7 +89,5 @@ export const config = {
     "/admin/:path*",
     "/api/requests/:path*",
     "/api/admin/:path*",
-    // Also run on all routes to keep session refreshed
-    "/((?!_next/static|_next/image|favicon.ico|.*\\.(?:svg|png|jpg|jpeg|gif|webp)$).*)",
   ],
 };
