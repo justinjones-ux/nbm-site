@@ -476,6 +476,29 @@ export default function Home() {
         </div>
       </section>
 
+      {/* ── Founder ────────────────────────────────────── */}
+      <section id="founder" className="section">
+        <div className="wrap">
+          <div className="founder-card glass shadow-soft reveal">
+            <div className="founder-avatar" aria-hidden="true">JSJ</div>
+            <div className="founder-body">
+              <div className="kicker">The person behind it</div>
+              <h2 className="h2" style={{ fontSize: "clamp(1.4rem, 3vw, 2rem)", marginBottom: "0.5rem" }}>
+                Justin Stewart-Jones
+              </h2>
+              <div className="founder-role">Founder &amp; Marketing Lead</div>
+              <p className="p founder-bio">
+                I started Northbridge because I saw small businesses losing money on marketing that wasn&apos;t working.
+                My job is to find what&apos;s broken, fix it, and make sure every pound spent is working harder.
+              </p>
+              <p className="p founder-bio">
+                I work directly with business owners &mdash; from the first conversation to the final result.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* ── Process ────────────────────────────────────── */}
       <section id="process" className="section">
         <div className="wrap">
